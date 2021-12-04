@@ -1,0 +1,303 @@
+:root {
+  --primery-color: #2196f3;
+  --main-txt-color: #212121;
+  --background-color: #e5e5e5;
+  --background2-color: #2f303a;
+  --background3-color: #f5f4fa;
+  --primery-font: 'Roboto', san-serif;
+  --secondary-font: 'Raleway', san-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+/*Вынесены общие стили*/
+
+body {
+  font-family: var(--primery-font);
+  font-style: normal;
+  font-weight: normal;
+  background: var(--background-color);
+  color: var(--main-txt-color);
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*Конец вынесения общих стилей*/
+
+/*Вынесены стили хэдэра*/
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primery-color);
+}
+.logo > span {
+  color: #000000;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-color);
+}
+.link:hover {
+  color: var(--primery-color);
+}
+.link:focus {
+  color: var(--primery-color);
+}
+
+/*Конец вынесения стилей хэдера*/
+
+/*Вынесены стили кнопок*/
+.order-button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: var(--primery-color);
+}
+.button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+.button:hover {
+  background: var(--primery-color);
+  color: #ffffff;
+}
+.bbutton:focus {
+  background: var(--primery-color);
+  color: #ffffff;
+}
+/*Конец вынесения стилей кнопок*/
+
+/*Вынесены стили заголовков и подписей*/
+.heading-first {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-txt-color);
+}
+.heading-second {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  /* text-align: center; */
+}
+.heading-third {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.heading-fourth {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.job {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Конец вынесения стилей заголовков и подписей*/
+
+/*Вынесены стили абзацов*/
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Конец вынесения стилей абзацов*/
+
+/*Вынесены стили футера*/
+.footer-contact {
+  font-family: var(--primery-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-contact > .footer-contact {
+  color: #ffffff;
+}
+.footer-box-portfolio > .container > .style > .logo > span,
+.footer-box-index > .container > .style > .logo > span {
+  color: #ffffff;
+}
+/*Конец вынесения стилей футера*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto 0;
+}
+
+/*========================= Хэдер ===================================*/
+.header {
+  background-color: #ffffff;
+}
+.header,
+.navbar,
+.adress-boxes,
+.nav-boxes {
+  display: flex;
+  align-items: baseline;
+}
+.logo {
+  margin-right: 50px;
+  margin-left: 0px;
+}
+.adress-boxes {
+  margin-left: auto;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.link:not(:last-child) {
+  margin-right: 50px;
+}
+
+/*========================= Hero ===================================*/
+.hero-section {
+  height: 600px;
+  background-color: var(--background2-color);
+  text-align: center;
+}
+.heading-first {
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+/*========================= Credo ===================================*/
+.credo {
+  display: flex;
+  padding-top: 94px;
+}
+.credo-item {
+  width: 270px;
+  margin-left: 10px;
+}
+.heading-third {
+  margin-bottom: 10px;
+}
+
+/*========================= Example ===================================*/
+.heading-second {
+  padding-top: 94px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.do-example {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+  margin: 0;
+  padding-left: 0;
+}
+
+/*========================= Team ===================================*/
+.job-section {
+  background-color: var(--background3-color);
+}
+
+.employee-list {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  margin: 0;
+  padding-left: 0;
+}
+.employee {
+  height: 368px;
+  margin-bottom: 94px;
+  background: #ffffff;
+}
+.heading-fourth,
+.job {
+  text-align: center;
+  margin: 0px;
+}
+.heading-fourth {
+  margin-top: 30px;
+}
+.job {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/*========================= Footer ===================================*/
+.footer-box-index,
+.footer-box-portfolio {
+  background-color: var(--background2-color);
+  height: 252px;
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+}
+.footer-box-index > .container > .style > .logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.footer-box-portfolio > .container > .style > .logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.footer-contacts {
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-contact {
+  padding-top: 10px;
+}
