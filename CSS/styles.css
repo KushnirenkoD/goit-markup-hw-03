@@ -76,6 +76,10 @@ p {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: var(--primery-color);
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 0px;
+  min-width: 200px;
 }
 .button {
   cursor: pointer;
@@ -83,13 +87,18 @@ p {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  background-color: var(--background3-color);
+  border-radius: 4px;
+  border: 1px solid var(--background3-color);
 }
 .button:hover {
   background: var(--primery-color);
+  border: 1px solid var(--primery-color);
   color: #ffffff;
 }
 .bbutton:focus {
   background: var(--primery-color);
+  border: 1px solid var(--primery-color);
   color: #ffffff;
 }
 /*Конец вынесения стилей кнопок*/
@@ -176,13 +185,16 @@ p {
 .container {
   width: 1200px;
   margin: 0 auto 0;
+  /* border: 2px solid tomato; */
 }
 
-/*========================= Хэдер ===================================*/
+/*========================= Header ===================================*/
 .header {
   background-color: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid #ececec;
 }
-.header,
+.header-style,
 .navbar,
 .adress-boxes,
 .nav-boxes {
@@ -211,17 +223,72 @@ p {
 }
 .heading-first {
   padding-top: 200px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+/*========================= Buttons portfolio ===================================*/
+.button-boxes {
+  display: flex;
+  justify-content: center;
+}
+.button-item {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.button-item:not(:last-child) {
+  margin-right: 8px;
+}
+/*========================= Categories portfolio ===================================*/
+.section-categories {
+  background-color: var(--background-color);
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+.category-img {
+  display: block;
+}
+.category-item {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.category-item {
+  margin-bottom: 30px;
+}
+.category-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.category-item:nth-child(n + 7) {
+  margin-bottom: 94px;
+}
+.portfolio-title,
+.portfolio-text {
+  margin: 0 24px;
+}
+.portfolio-title {
+  margin-top: 20px;
+}
+.portfolio-text {
+  margin-top: 4px;
+  margin-bottom: 30px;
 }
 
 /*========================= Credo ===================================*/
 .credo {
   display: flex;
-  padding-top: 94px;
+  padding: 94px 0px 0px 0px;
+  margin: 0;
+  justify-content: center;
 }
 .credo-item {
   width: 270px;
-  margin-left: 10px;
+}
+.credo-item:not(:last-child) {
+  margin-right: 30px;
 }
 .heading-third {
   margin-bottom: 10px;
@@ -241,7 +308,9 @@ p {
   margin: 0;
   padding-left: 0;
 }
-
+.employee-img {
+  display: block;
+}
 /*========================= Team ===================================*/
 .job-section {
   background-color: var(--background3-color);
