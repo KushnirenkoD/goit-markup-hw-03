@@ -190,6 +190,7 @@ p {
 
 /*========================= Header ===================================*/
 .header {
+  height: 80px;
   background-color: #ffffff;
   text-align: center;
   border-bottom: 1px solid #ececec;
@@ -200,14 +201,22 @@ p {
 .nav-boxes {
   display: flex;
   align-items: baseline;
+  padding: 0;
+  margin: 0;
 }
 .logo {
   margin-right: 50px;
   margin-left: 0px;
+  margin-top: 24px;
+}
+.nav-boxes {
+  padding-top: 32px;
 }
 .adress-boxes {
   margin-left: auto;
+  padding-top: 32px;
 }
+
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -227,9 +236,14 @@ p {
 }
 
 /*========================= Buttons portfolio ===================================*/
+.section-button {
+  background-color: #ffffff;
+}
 .button-boxes {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding-left: 0;
 }
 .button-item {
   margin-top: 94px;
@@ -240,7 +254,7 @@ p {
 }
 /*========================= Categories portfolio ===================================*/
 .section-categories {
-  background-color: var(--background-color);
+  background-color: #ffffff;
 }
 .categories {
   display: flex;
