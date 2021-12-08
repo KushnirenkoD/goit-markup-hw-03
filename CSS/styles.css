@@ -194,6 +194,7 @@ p {
   background-color: #ffffff;
   text-align: center;
   border-bottom: 1px solid #ececec;
+  padding: 24px 0 0 0;
 }
 .header-style,
 .navbar,
@@ -207,14 +208,13 @@ p {
 .logo {
   margin-right: 50px;
   margin-left: 0px;
-  margin-top: 24px;
 }
-.nav-boxes {
+/* .nav-boxes {
   padding-top: 32px;
-}
+} */
 .adress-boxes {
   margin-left: auto;
-  padding-top: 32px;
+  /* padding-top: 32px; */
 }
 
 .nav-item:not(:last-child) {
@@ -229,9 +229,11 @@ p {
   height: 600px;
   background-color: var(--background2-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 210px;
 }
 .heading-first {
-  padding-top: 200px;
+  /* padding-top: 200px; */
   padding-bottom: 30px;
 }
 
@@ -244,17 +246,19 @@ p {
   justify-content: center;
   margin: 0;
   padding-left: 0;
-}
-.button-item {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding: 94px 0px 50px 0px;
 }
 .button-item:not(:last-child) {
   margin-right: 8px;
 }
+.button {
+  padding: 6px 22px;
+}
+
 /*========================= Categories portfolio ===================================*/
 .section-categories {
   background-color: #ffffff;
+  padding: 0px 0px 94px 0px;
 }
 .categories {
   display: flex;
@@ -268,33 +272,33 @@ p {
 }
 .category-item {
   background-color: #ffffff;
-  border: 1px solid #eeeeee;
 }
-.category-item {
-  margin-bottom: 30px;
+.portfolio-description {
+  padding: 20px 0px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .category-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.category-item:nth-child(n + 7) {
-  margin-bottom: 94px;
+.category-item:not(:nth-child(n + 7)) {
+  margin-bottom: 30px;
 }
 .portfolio-title,
 .portfolio-text {
   margin: 0 24px;
 }
-.portfolio-title {
-  margin-top: 20px;
-}
 .portfolio-text {
   margin-top: 4px;
-  margin-bottom: 30px;
 }
 
 /*========================= Credo ===================================*/
+.middle-section {
+  padding: 94px 0px;
+  background-color: #ffffff;
+}
 .credo {
   display: flex;
-  padding: 94px 0px 0px 0px;
   margin: 0;
   justify-content: center;
 }
@@ -309,8 +313,12 @@ p {
 }
 
 /*========================= Example ===================================*/
+.example-section {
+  padding: 94px 0px;
+  background-color: #ffffff;
+}
 .heading-second {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
   text-align: center;
 }
@@ -318,7 +326,7 @@ p {
 .do-example {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
   margin: 0;
   padding-left: 0;
 }
@@ -328,6 +336,7 @@ p {
 /*========================= Team ===================================*/
 .job-section {
   background-color: var(--background3-color);
+  padding: 94px 0px;
 }
 
 .employee-list {
@@ -339,7 +348,7 @@ p {
 }
 .employee {
   height: 368px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   background: #ffffff;
 }
 .heading-fourth,
@@ -359,20 +368,22 @@ p {
 .footer-box-index,
 .footer-box-portfolio {
   background-color: var(--background2-color);
-  height: 252px;
+  /* height: 252px; */
+  /* padding-top: 60px 0px; */
 }
 
 .style {
   display: flex;
   flex-direction: column;
+  padding: 60px 0px;
 }
 .footer-box-index > .container > .style > .logo {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 20px;
   margin: 0;
 }
 .footer-box-portfolio > .container > .style > .logo {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 20px;
   margin: 0;
 }
