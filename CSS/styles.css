@@ -226,7 +226,7 @@ p {
 
 /*========================= Hero ===================================*/
 .hero-section {
-  height: 600px;
+  /* height: 600px; */
   background-color: var(--background2-color);
   text-align: center;
   padding-top: 200px;
