@@ -229,8 +229,7 @@ p {
   /* height: 600px; */
   background-color: var(--background2-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 210px;
+  padding: 200px 0px;
 }
 .heading-first {
   /* padding-top: 200px; */
