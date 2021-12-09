@@ -169,7 +169,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -194,7 +194,7 @@ p {
   background-color: #ffffff;
   text-align: center;
   border-bottom: 1px solid #ececec;
-  padding: 24px 0 0 0;
+  padding: 24px 0 25px 0;
 }
 .header-style,
 .navbar,
@@ -313,7 +313,7 @@ p {
 
 /*========================= Example ===================================*/
 .example-section {
-  padding: 94px 0px;
+  padding: 0px 0px 94px 0px;
   background-color: #ffffff;
 }
 .heading-second {
@@ -367,22 +367,17 @@ p {
 .footer-box-index,
 .footer-box-portfolio {
   background-color: var(--background2-color);
-  /* height: 252px; */
-  /* padding-top: 60px 0px; */
 }
-
 .style {
   display: flex;
   flex-direction: column;
   padding: 60px 0px;
 }
 .footer-box-index > .container > .style > .logo {
-  /* padding-top: 60px; */
   padding-bottom: 20px;
   margin: 0;
 }
 .footer-box-portfolio > .container > .style > .logo {
-  /* padding-top: 60px; */
   padding-bottom: 20px;
   margin: 0;
 }
@@ -390,7 +385,6 @@ p {
   padding-left: 0;
   margin: 0;
 }
-
-.footer-contact {
-  padding-top: 10px;
+.link-contact:not(:last-child) {
+  margin: 0px 0px 9px 0px;
 }
